@@ -16,17 +16,34 @@ class BankAccount {
         }
     }
 
-    public void showBalance() {
-        System.out.println("Account Number : " + accountNumber);
-        System.out.println("Balance : " + balance);
+    public String getAccountNumber() {
+        return accountNumber;
     }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
 }
 
 public class Encapsulation {
     public static void main(String[] args) {
         BankAccount account = new BankAccount();
+        account.setAccountNumber("123456789");
+        account.setBalance(0);
+
         account.deposit(1000);
         account.withdraw(500);
-        account.showBalance();
+        System.out.println("Account Number: " + account.getAccountNumber());
+        System.out.println("Balance: " + account.getBalance());
     }
+
 }
