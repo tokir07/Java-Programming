@@ -1,0 +1,20 @@
+package Exception_Handling;
+
+public class MultipleCatch {
+    public static void main(String[] args) {
+        int i = 2;
+        int j = 0;
+
+        int nums[] = new int[5];
+        try {
+            j = 18 / i;
+            System.out.println(nums[0]);
+            System.out.println(nums[5]);
+        } catch (ArithmeticException e) {
+            System.out.println("Cannot divide by zero " + e);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Out of bound Error " + e);
+        }
+    }
+
+}
