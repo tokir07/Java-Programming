@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="NOVA.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tokir\Desktop\Java Programming\first-maven-project\target\test-classes;C:\Users\tokir\Desktop\Java Programming\first-maven-project\target\classes;C:\Users\tokir\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\tokir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\tokir\AppData\Local\Temp\surefire11435649701397452742\surefirebooter10342464917863006078.jar C:\Users\tokir\AppData\Local\Temp\surefire11435649701397452742 2026-05-08T00-49-46_079-jvmRun1 surefire15612531021349036454tmp surefire_05141446949718582734tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\tokir\Desktop\Java Programming\first-maven-project\target\test-classes;C:\Users\tokir\Desktop\Java Programming\first-maven-project\target\classes;C:\Users\tokir\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\tokir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tokir"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tokir\Desktop\Java Programming\first-maven-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\tokir\AppData\Local\Temp\surefire11435649701397452742\surefirebooter10342464917863006078.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS"/>
+    <property name="user.name" value="tokir"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.1+8"/>
+    <property name="localRepository" value="C:\Users\tokir\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\tokir\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\tokir\Desktop\Java Programming\first-maven-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\tokir\.vscode\extensions\vadimcn.vscode-lldb-1.12.2\bin;c:\Users\tokir\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\tokir\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\tokir\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Users\tokir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PostgreSQL\17\bin;C:\Users\tokir\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\nodejs\;C:\Users\tokir\.local\bin;C:\Program Files\Git\cmd;C:\Users\tokir\Downloads\apache-maven-3.9.15-bin\apache-maven-3.9.15\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tokir\scoop\shims;C:\Users\tokir\anaconda3;C:\Users\tokir\anaconda3\Library\mingw-w64\bin;C:\Users\tokir\anaconda3\Library\usr\bin;C:\Users\tokir\anaconda3\Library\bin;C:\Users\tokir\anaconda3\Scripts;C:\Users\tokir\anaconda3\bin;C:\Users\tokir\anaconda3\condabin;C:\Program Files\Python313\Scripts;C:\Program Files\Python313;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\tokir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PostgreSQL\17\bin;C:\Users\tokir\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\nodejs;C:\Users\tokir\AppData\Local\nvm;C:\nvm4w\nodejs;C:\nvm;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\tokir\AppData\Local\Programs\Python\Launcher;C:\Users\tokir\AppData\Local\Microsoft\WindowsApps;C:\Users\tokir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tokir\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\tokir\GitHubDesktop\bin;C:\Users\tokir\AppData\Roaming\np;c:\Users\tokir\.vscode\extensions\ms-python.debugpy-2025.14.1-win32-x64\bundled\scripts\noConfigScripts;c:\Users\tokir\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\tokir\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\tokir\AppData\Local\Programs\Antigravity\bin;C:\Users\tokir\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\tokir\AppData\Local\Microsoft\WindowsApps;c:\Users\tokir\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="NOVA.AppTest" time="0.002"/>
+</testsuite>
